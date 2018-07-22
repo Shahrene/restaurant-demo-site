@@ -3,13 +3,20 @@ body {
 }
 
 section {
-  padding: 25px 0 30px 0;
-  margin: 80px 0 10px 0;
+  padding: 15px 0 30px 0;
+  margin: 50px 0 10px 0;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 20px;
 }
 
 header {
-  font-family: Georgia, serif;
-  letter-spacing: 8px;
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 10px;
   color: white;
   margin-top: 35px;
 }
@@ -17,31 +24,43 @@ header {
 main {
   width: 100%;
   margin: 0, auto;
+  font-family: 'Cormorant', serif;
 }
 
 ul {
   list-style: none;
 }
+
+/* hamburger menu */
 .navbar, .navbar-brand {
-  text-align: right;
-  font-family: Georgia, serif;
-  color: white;
-  margin-top: 35px;
+  margin-top: 28px;
 }
 
 .navbar-nav {
   position: relative;
-  z-index: 0;
-  background-color: rgb(45, 46, 62, 0.7);
+  z-index: 1;
+  background-color: rgb(45, 46, 62);
+  max-width: 40px;
+  float: right;
 }
 
+/*gallery*/
 .carousel-caption {
   bottom: -15px;
   position: sticky;
 }
+/*menu*/
+.font-weight-light {
+  font-weight: 100;
+}
 
+.font-weight-bold {
+  font-size: 22px;
+}
+
+/*gallery arrow icons*/
 .fa {
-    color: black;
+    color: rgb(45, 46, 62);
 }
 
 #menu {
@@ -50,7 +69,6 @@ ul {
 
 /*Hamburger Menu Icons*/
 /* Icon 1 */
-
 .animated-icon1, .animated-icon2, .animated-icon3, .animated-icon4 {
   width: 30px;
   height: 20px;
@@ -131,7 +149,6 @@ ul {
 }
 
 /* Icon 3*/
-
 .animated-icon3 span:nth-child(1) {
   top: 0px;
 }
@@ -171,7 +188,6 @@ ul {
 }
 
 /* Icon 4 */
-
 .animated-icon4 span:nth-child(1) {
   top: 0px;
   -webkit-transform-origin: left center;
